@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+ #courses img{
+  max-width: 300px;
+  height: 300px;
+  
+} 
+
+a{
+    color:white;
+    text-decoration: none;
+
+}
+
+/* ***************************** */
+
+/* navbar */
+header{
+    background-color: cadetblue;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+   
+    
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 4rem;
+  
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    padding:0.7rem ;
+    
+}
+
+#navbar h1{
+    padding-bottom: 1rem;
+    color:white;
+}
+#navbar ul li {
+    padding-left: 1rem;
+   
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    border-radius: 3px;
+}
+/* ****************************** */
+/* Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    /*Elemanları ortalama */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+
+#home img{
+    width: 300px;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
+
+#home #name{
+    text-align: center;
+    /*margin-top: 1rem;*/
+  
+}
+
+#home #name h2{
+    margin-top: 0.8rem;
+}
+#home #name p{
+    margin-top: 0.6rem;
+    opacity: 0.6;
+    font-style: italic;
+}
+ #home #name a{
+    margin-bottom: 0.5rem;
+
+}
+
+/* #home #name a:hover{
+    background-color: white;
+    color:cadetblue;
+    border:1px solid cadetblue;
+}  */
+
+
+#training h2{
+    color:white;
+    padding-bottom: 1rem;
+    
+
+}
+#training #items{
+    display: flex;
+    text-align: center;
+    padding: 0.7rem;
+    
+    
+}
+
+#training #items .item{
+  width: 33%;
+    
+}
+
+#training #items .item:hover{
+    color:white;
+    
+}
+
+
+
+
+#courses {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+
+} 
+
+
+
+
+
+#courses-title{
+    color:cadetblue;
+    padding: 1rem;
+}
+
+
+#courses .course .img{
+    position: relative;
+}
+
+#courses .course .writed{
+    text-align: center;
+    padding-top:0.5rem;
+}
+
+#courses .course .img span{
+    position: absolute;
+    color:red;
+    background-color: violet;
+    top: 20px;
+    left:10px;
+    
+}
+
+#courses .course .writed .title{
+    color:cadetblue;
+
+}
+
+#courses .course .writed .description{
+    letter-spacing: 1px;
+}
+
+#courses .course .writed .instructor,.ration{
+    opacity: 0.6;
+    font-size: small;
+}
+
+#contact{
+    background-color: cadetblue;
+    color:white;
+}
+
+#contact h4{
+    padding-top: 1rem;
+}
+
+#contact .contact-form .container-form{
+    margin:0 auto;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .contact-form .container-form form{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    padding: 1rem; 
+    width: 60%;
+}
+
+#contact .contact-form .container-form form label{
+    margin-top: 0.5rem;
+}
+
+#contact .contact-form .container-form form #submit{
+    
+    margin-top: 1rem;
+}
+
+#contact .contact-form ul .lis{
+    list-style-type: none;
+    display: flex;
+   margin: 0 auto;
+    justify-content: center;
+}
+
+#contact .contact-form ul .lis li{
+    padding: 1rem;
+   
+}
+
+#contact .contact-form ul .lis li a i{
+    font-size: 2.5rem;
+}

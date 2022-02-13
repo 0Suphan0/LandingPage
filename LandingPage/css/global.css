@@ -1,0 +1,31 @@
+/* Buttons */
+
+.btn{
+    display: inline-block;
+    margin-top: 0.8rem;
+    padding:1rem 5rem;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    color:white;
+    background-color: cadetblue;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color:cadetblue;
+    border:1px solid cadetblue;
+}
+
+/* Text center */
+
+.text-center{
+    text-align: center;
+}
+
+/* Colors */
+.bg-light{
+    background-color: cadetblue;
+}
+
